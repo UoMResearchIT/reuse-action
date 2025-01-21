@@ -9,6 +9,10 @@ inputs:
   args:
     description: "The arguments to pass to the reuse-tool"
     required: true
+  branch:
+    description: "The branch to check out the reuse-tool from"
+    required: false
+    default: "main"
 runs:
   using: composite
   steps:
